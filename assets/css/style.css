@@ -1,0 +1,50 @@
+body {
+    background-image: url(../images/background-img.jpg);
+}
+
+.flex-container {
+    display: flex;
+    width: 40%;
+    margin: 20px auto;
+    flex-direction: column;
+    font-family: fantasy;
+    font-weight: bold;
+    color: mediumpurple;
+    text-align: center;
+    background-image: url(../images/container-background.gif);
+    border-radius: 20px;
+    opacity: .9;
+}
+
+.flex-container h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.flex-container #game-img {
+    margin: auto;
+    border-radius: 20px;
+    height: 260px;
+}
+
+.flex-container h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.flex-container .game-info {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.flex-container .guesses {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 10px;
+
+}
